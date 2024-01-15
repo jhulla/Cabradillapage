@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Table </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		body {
+		  font-family: Cambria;
+		}
+		
+		header {
+		  background-color: palevioletred;
+		  padding: 30px;
+		  text-align: center;
+		  font-size: 35px;
+		  color: black;
+		}
+		
+		nav {
+		  float: left;
+		  width: 10%;
+		  height: 1500px; 
+		  background: plum;
+		  padding: 20px;
+		}
+		
+		
+		nav ul {
+		  list-style-type: none;
+		  padding: 0;
+		}
+
+		article {
+		  float: left;
+		  padding: 30px;
+		  width: 90%;
+		  background-color: burlywood;
+		  height:1500px; 
+		}
+		
+		section::after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		footer {
+		  background-color: purple;
+		  padding: 4px;
+		  text-align: center;
+		  color: white;
+		}
+		
+		@media (max-width: 600px) {
+			nav, article {
+			  width: 100%;
+			  height: auto;
+			}
+		  }
+		</style>
+</head>
+<body>
+	<header>
+		<h2>Web System And Technologies IT-2C</h2>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+			  <li><a href="index.html"><button> Profile </button></a></li><br>
+			  <li><a href="Act1Cabradilla.html"><button> Activity 1 </button></a></li><br>
+			  <li><a href="Act2Cabradilla.html"><button> Activity 2 </button></a></li><br>
+			  <li><a href="Act3Cabradilla.html"><button> Activity 3 </button></a></li><br>
+			  <li><a href="act4Cabradilla.html"><button> Activity 4 </button></a></li><br>
+			  <li><a href="Act5Cabradilla.html"><button> Activity 5 </button></a></li><br>
+			  <li><a href="Act6Cabradilla.html"><button> Activity 6 </button></a></li>
+			</ul>
+		  </nav>
+
+	<article>
+	<center>
+	<table border="1" cellpadding="9" cellspacing="0">
+	<tr>
+		<td text align="center" colspan="9" > ABS-CBN KAPAMILYA ONLINE LIVE SCHEDULE FROM MONDAY TO SUNDAY </td>
+	</tr>
+
+	<tr text align ="center">
+		<td> <img src="abs.JPG" height="100" width="150"> </td>
+		<td> Monday </td>
+		<td> Tuesday </td>
+		<td> Wednesday </td>
+		<td> Thursday </td>
+		<td> Friday </td>
+		<td> Saturday </td>
+		<td> Sunday </td>
+	</tr>
+	<tr text align ="center">
+		<td> 7:40 am </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> TEAM FITFIL </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 8:00 am </td>
+		<td> Magandang Buhay </td>
+		<td> Magandang Buhay </td>
+		<td> Magandang Buhay </td>
+		<td> Magandang Buhay </td>
+		<td> Magandang Buhay </td>
+		<td> Halik </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 8:40 am </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> TEAM FITFIL </td>
+	</tr>
+	<tr text align ="center">
+		<td> 9:00 am </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> G Diaries </td>
+	</tr>
+	<tr text align ="center">
+		<td> 9:30 am </td>
+		<td> Magpahanggang Wakas </td>
+		<td> Magpahanggang Wakas </td>
+		<td> Magpahanggang Wakas </td>
+		<td> Magpahanggang Wakas </td>
+		<td> Magpahanggang Wakas </td>
+		<td> </td>
+		<td> Pangako Sayo </td>
+	</tr>
+	<tr text align ="center">
+		<td> 10:10 am </td>
+		<td> MMK Classic </td>
+		<td> MMK Classic </td>
+		<td> MMK Classic </td>
+		<td> MMK Classic </td>
+		<td> MMK Classic </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 11:15 am </td>
+		<td> Pilipinas GKNB? </td>
+		<td> Pilipinas GKNB? </td>
+		<td> Pilipinas GKNB? </td>
+		<td> Pilipinas GKNB? </td>
+		<td> Pilipinas GKNB? </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 12:00 pm </td>
+		<td> It's Showtime </td>
+		<td> It's Showtime </td>
+		<td> It's Showtime </td>
+		<td> It's Showtime </td>
+		<td> It's Showtime </td>
+		<td> It's Showtime </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 12:30 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> ASAP Natin 'to </td>
+	</tr>
+	<tr text align ="center">
+		<td> 2:30 pm </td>
+		<td> Love Thy Woman </td>
+		<td> Love Thy Woman </td>
+		<td> Love Thy Woman </td>
+		<td> Love Thy Woman </td>
+		<td> Love Thy Woman </td>
+		<td> </td>
+		<td> Ipaglaban Mo </td>
+	</tr>
+	<tr text align ="center">
+		<td> 3:15 pm </td>
+		<td> General's Daughter </td>
+		<td> General's Daughter </td>
+		<td> General's Daughter </td>
+		<td> General's Daughter </td>
+		<td> General's Daughter </td>
+		<td> SOCO </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 3:30 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> Showbiz Pa More </td>
+	</tr>
+	<tr text align ="center">
+		<td> 4:00 pm </td>
+		<td> Precious Heart Romances </td>
+		<td> Precious Heart Romances </td>
+		<td> Precious Heart Romances </td>
+		<td> Precious Heart Romances </td>
+		<td> Precious Heart Romances </td>
+		<td> Wansapanataym Presents </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 4:30 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> Celebrity Playtime </td>
+	</tr>
+	<tr text align ="center">
+		<td> 4:45 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> I Feel You </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 5:10 pm </td>
+		<td> 100 Days To Heaven </td>
+		<td> 100 Days To Heaven </td>
+		<td> 100 Days To Heaven </td>
+		<td> 100 Days To Heaven </td>
+		<td> 100 Days To Heaven </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 5:45 pm </td>
+		<td> Forevermore </td>
+		<td> Forevermore </td>
+		<td> Forevermore </td>
+		<td> Forevermore </td>
+		<td> Forevermore </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 6:15 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> Iba 'Yan </td>
+	</tr>
+	<tr text align ="center">
+		<td> 6:45 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> Paano Kita Mapapasalamatan </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 7:15 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> Be Careful With My Heart </td>
+	</tr>
+	<tr text align ="center">
+		<td> 7:30 pm </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> It's Showtime sa Primetime </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 8:00 pm </td>
+		<td> FPJ's Ang Probinsyano </td>
+		<td> FPJ's Ang Probinsyano </td>
+		<td> FPJ's Ang Probinsyano </td>
+		<td> FPJ's Ang Probinsyano </td>
+		<td> FPJ's Ang Probinsyano </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 8:40 pm </td>
+		<td> Los Bastardos </td>
+		<td> Los Bastardos </td>
+		<td> Los Bastardos </td>
+		<td> Los Bastardos </td>
+		<td> Los Bastardos </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr text align ="center">
+		<td> 9:20 pm </td>
+		<td> A Soldiers Heart </td>
+		<td> A Soldiers Heart </td>
+		<td> A Soldiers Heart </td>
+		<td> A Soldiers Heart </td>
+		<td> A Soldiers Heart </td>
+		<td> </td>
+		<td> </td>
+	</tr>
+</table>
+</center>
+	</article>
+	</section>
+</body>
+</html>

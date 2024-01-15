@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> STUDENT SURVEY FORM </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		body {
+		  font-family: Cambria;
+		}
+		
+		header {
+		  background-color: palevioletred;
+		  padding: 30px;
+		  text-align: center;
+		  font-size: 35px;
+		  color: black;
+		}
+		
+		nav {
+		  float: left;
+		  width: 10%;
+		  height: 700px; 
+		  background: plum;
+		  padding: 20px;
+		}
+		
+		
+		nav ul {
+		  list-style-type: none;
+		  padding: 0;
+		}
+
+		.button {
+		  background-color: #04AA6D;
+		  border-radius: 4px;
+		  color: #e7e7e7;
+		  padding: 12px 28px;
+		  text-align: center;
+		  text-decoration: dashed;
+		  display: inline-block;
+		  font-size: 16px;
+		  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		
+		article {
+		  float: left;
+		  padding: 30px;
+		  width: 90%;
+		  background-color: burlywood;
+		  height:700px; 
+		}
+		
+		section::after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		footer {
+		  background-color: purple;
+		  padding: 4px;
+		  text-align: center;
+		  color: white;
+		}
+		
+		@media (max-width: 600px) {
+			nav, article {
+			  width: 100%;
+			  height: auto;
+			}
+		  }
+		</style>
+</head>
+<body>
+	<header>
+		<h2>Web System And Technologies IT-2C</h2>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+			  <li><a href="index.html"><button> Profile </button></a></li><br>
+			  <li><a href="Act1Cabradilla.html"><button> Activity 1 </button></a></li><br>
+			  <li><a href="Act2Cabradilla.html"><button> Activity 2 </button></a></li><br>
+			  <li><a href="Act3Cabradilla.html"><button> Activity 3 </button></a></li><br>
+			  <li><a href="act4Cabradilla.html"><button> Activity 4 </button></a></li><br>
+			  <li><a href="Act5Cabradilla.html"><button> Activity 5 </button></a></li><br>
+			  <li><a href="Act6Cabradilla.html"><button> Activity 6 </button></a></li>
+			</ul>
+		  </nav>
+
+	<article>
+	<p text align="center"><font size="7"><b> Student Survey Form </b></font></p>
+	<br>
+	<pre>
+	<font size="4" face="Cambria">
+<label> Firstname:</label>						      	  	<label> Middlename:</label>					           	<label> Lastname:</label>
+<input type="text" name="firstname" size="30"/>			<input type="text" name="middlename" size="30"/>			<input type="text" name="lastname" size="30"/>
+	</pre>  
+	
+	<label>
+		Year:
+	</label>
+	<select>
+		<option value="Year"> Year </option>
+		<option value="1"> 1st </option>
+		<option value="2"> 2nd </option>
+		<option value="3"> 3rd </option>
+		<option value="4"> 4th </option>
+	</select>
+	<br>
+	<br>
+	<label>   
+		Course :  
+	</label>   
+	<select>  
+		<option value="Course"> Course </option>  
+		<option value="BSIT"> BSIT </option>  
+		<option value="BEED"> BEED </option>  
+		<option value="BAEL"> BAEL </option>  
+		<option value="BSCE"> BSCE </option>  
+		<option value="BSEE"> BSEE </option>  
+		<option value="BSIE"> BSIE </option>  
+	</select>  
+	<br>
+	<br>
+	<label>   
+		Gender :  
+	</label>
+	<br>  
+	<input type="radio" name="male"/> Male <br>  
+	<input type="radio" name="female"/> Female <br>  
+	<input type="radio" name="other"/> Other  
+	<br>  
+	<br>  
+	<label>   
+		Phone :  
+	</label>  
+	<input type="text" name="country code"  value="+63" size="4"/>   
+	<input type="text" name="phone" size="10"/>
+	<br>
+	<br>  
+	Address:  
+	<br>  
+	<input type"text" name="Address" size="60"/>
+	<br>
+	<br>
+	Email:  
+	<input type="email" id="email" name="email"/> <br>    
+	<br>  
+	<button>Submit</button>
+	</form>
+	</article>
+	</section>
+</body>
+</html>
